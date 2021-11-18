@@ -12,7 +12,7 @@ class Game {
     displayGame(): void {
         // create the html for the current game
         let gameForm: string = '';
-        for (let i = 1; i <= this.problemCount; i ++) {
+        for (let i = 1; i <= this.problemCount; i++) {
             gameForm += '<div class="form-group">';
             gameForm += '<label for="answer' + i + '" class="col-sm-2 control-label">';
             gameForm += String(this.factor) + ' x ' + i + ' = </label';
